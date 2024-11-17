@@ -1,0 +1,15 @@
+.DS_Store
+terraform/modules/jd_s3_lambda/lambda.zip
+.terraform/
+terraform/modules/jd_poller_lambda/lambda.zip
+terraform/modules/test_cors_api/lambda.zip
+terraform/modules/jd_poller_api/lambda.zip
+terraform/modules/jd_s3_lambda/text_conversion_lambda.zip
+terraform/modules/dimension_extraction_lambda/dimension_extraction_lambda.zip
+terraform/modules/jd_s3_lambda/dimension_extraction_lambda.zip
+terraform/**/*.zip
+**/node_modules/
+terraform/.terraform.lock.hcl
+test-data/open-ai-entities/**
+test-data/spacy-train-json/**
+terraform/generated/** 
